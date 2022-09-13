@@ -1,0 +1,332 @@
+#nameButton{
+  cursor:hand;
+  box-shadow: 0px 5px #1a6aff;
+}
+#nameButton:active{
+  box-shadow: none;
+  transform: translateY(5px)
+}
+#nameInput{
+  height:60px;
+  width:240px;
+  background-color:#119bff;
+  transform:translateY(-15px);
+  font-size:28px;
+  font-family:"Comic Sans MS";
+  color: #00f2ff;
+  margin-left:10px;
+}
+#ready[src="images/readyGreen.png"]{
+  box-shadow: 0px 5px #7aee55;
+  cursor:hand;
+}
+#ready:active[src="images/readyGreen.png"]{
+  box-shadow: none;
+  transform:translateY(5px);
+}
+#ready[src="images/readyRed.png"]{
+  box-shadow: 0px 5px #ff8181;
+  cursor:hand;
+}
+#ready:active[src="images/readyRed.png"]{
+  box-shadow: none;
+  transform:translateY(5px);
+}
+#playerListText{
+  font-size: 48px;
+  padding:none;
+  margin:5px;
+  align:center;
+}
+#lobbyContainer{
+  position:absolute;
+  top:5%;
+  width:90%;
+  height:90%;
+  left:5%;
+  background-color:lightgray;
+  border:5px solid gray;
+  border-radius:20px;
+  z-index:-1;
+  display:none;
+}
+#compen{
+  font-family:"Comic Sans MS";
+  font-size:18px;
+}
+#compendiumContainer{
+  display:none;
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -290px;
+    margin-left: -190px;
+    width: 414px;
+    height:630px;
+    z-index: 50;
+}
+#titleText{
+  position:absolute;
+  z-index:51;
+}
+#compImg{
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0%;
+  left:0%;
+}
+#x{
+  position:absolute;
+  left:43%;
+  bottom:35px;
+  width:30px;
+  height:30px;
+  z-index: 500;
+}
+#x:hover{
+  cursor:hand;
+}
+#arrowLeft{
+  position:absolute;
+  bottom:50px;
+  left:50px;
+  z-index:500;
+  width:50px;
+  height:25px;
+  display:none;
+}
+#arrowLeft:hover{
+  content:url(../images/arrowLeftOn.png);
+  cursor:hand;
+  width:70px;
+  height:45px;
+  left:40px;
+  bottom:40px;
+}
+#arrowRight{
+  position:absolute;
+  bottom:50px;
+  right:50px;
+  z-index:500;
+  width:50px;
+  height:25px;
+  display:none;
+}
+#arrowRight:hover{
+  content:url(../images/arrowRightOn.png);
+  cursor:hand;
+  width:70px;
+  height:45px;
+  right:40px;
+  bottom:40px;
+}
+#gameStatus{
+  font-size:50px;
+  margin-top: 0px;
+  padding-left:1%;
+  padding-top:5%;
+}
+
+#bottomMe{
+  position:absolute;
+  bottom:10px;
+  left:45%
+}
+#compen:hover{
+  cursor:hand;
+  color:yellow;
+}
+#playerListContainer{
+  width:40%;
+  height:70%;
+  position:absolute;
+  left:5%;
+  top:20%;
+  background-color: yellow;
+  margin:0px;
+  padding:0px;
+  border:5px solid black;
+}
+#statusContainer{
+  height:20%;
+  width:100%;
+  border:0px solid white;
+  background-color: red;
+  border-bottom: 5px solid black;
+}
+.message{
+  font-size:18px;
+  font-family: "Comic Sans MS";
+  border:none;
+  margin:0px;
+  padding:0px;
+  border:0px;
+}
+#lobbyChat::-webkit-scrollbar{
+  background-color:#119bff;
+}
+#lobbyChat::-webkit-scrollbar-thumb{
+  background-color:lightgray;
+}
+#lobbyChat{
+  border:0px solid white;
+  margin:0px;
+  padding:0px;
+  border:0px;
+  position:absolute;
+  top:21%;
+  height:74%;
+}
+#chatStuff{
+  position:absolute;
+  bottom:0%;
+  margin-bottom:0px;
+  width:100%;
+  height:5%;
+  border-top:5px solid black;
+  background-color:black;
+}
+#textBox{
+  background-color: #119bff;
+  height:100%;
+  width:70%;
+  color:black;
+  font-family:'Comic Sans MS';
+  border:2px solid black;
+}
+#textBox::placeholder{
+  color:black;
+}
+#submitMessage{
+  height:100%;
+  width:30%;
+  border:2px solid black;
+}
+#submitMessage:hover{
+  cursor:hand;
+}
+#submitMessage:active{
+  background-color: darkgray;
+  border:2px solid purple;
+}
+#submitMessage:focus{
+  outline:none;
+}
+#textBox:focus{
+  outline:none;
+  border:2px solid purple;
+}
+#chatContainer{
+  width:40%;
+  height:70%;
+  position:absolute;
+  right:5%;
+  top:20%;
+  background-color: blue;
+  margin:0px;
+  padding:0px;
+  border:6px solid black;
+}
+#backgroundCanvas{
+  position:absolute;
+  left:0px;
+  top:0px;
+}
+#playerList{
+  height:99%;
+  width:99%;
+  padding:0px;
+  margin:0px;
+  overflow:hidden;
+  border:none;
+}
+.player{
+  width:100%;
+  border-top:2px solid gray;
+  margin-left:0px;
+  padding-top:5px;
+  padding-top:2px;
+  border-left:none;
+  padding:none;
+  font-family: "Comic Sans MS"
+}
+#openingScreen{
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:0;
+  display:block;
+}
+body{
+  background-color:maroon;
+}
+h1{
+  color: white;
+}
+#gamesContainer{
+  background-color: lightgray;
+  width:40%;
+  position:absolute;
+  left:30%;
+  top:35%;
+  height:40%;
+  padding-left: 0px;
+  align:left;
+  border:3px solid gray;
+  border-radius: 20px
+}
+ol{
+  width:100%;
+  color:"black";
+  border:3px solid gray;
+  padding:0px;
+  overflow:auto;
+  height:50%
+
+}
+ul{
+  background-color:"light-gray";
+  border: 3px solid gray;
+  border-left:8px;
+  border-right:8px;
+  border-bottom:4px;
+  padding:0;
+  margin-left:5px;
+  align-items: flex-end;
+  height:40px;
+  font-size:40px;
+}
+.joinButton{
+  height:100%;
+  box-shadow:0px 5px #3fdc11;
+  align-self:flex-end;
+}
+.joinButton{
+  height:100%;
+  box-shadow:0px 5px #3fdc11;
+  align-self:flex-end;
+  cursor:hand;
+}
+.joinButton:active{
+  transform: translateY(5px);
+  box-shadow:none;
+}
+.buttonSpan{
+  align-items:right;
+}
+#gameForm{
+  background-color: gray;
+  height:24%;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  align: "Center";
+}
+#chooseGame{
+  padding:0px;
+  margin:0px;
+  align-self: "center";
+  font-size: 35px;
+}

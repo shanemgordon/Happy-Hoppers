@@ -1,0 +1,60 @@
+<head>
+  <title>Happy Hoppers!</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="icon" href="images/fleshy.png">
+  <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet'>
+</head>
+<style>
+body{
+  font-family: 'Bangers';
+}
+</style>
+<body>
+  <canvas id="backgroundCanvas"> </canvas>
+  <div id="openingScreen">
+      <center>
+      <div id="gamesContainer" align="center">
+        <p id="chooseGame" align="center"> Choose or create a game! </p>
+        <ol id="gamesList">
+        </ol>
+        <div id="gameForm" align="center">
+          <br>
+          <input type="text" id="box" placeholder="Game Name"><button id="newGame">Create New Game!</button>         <button id="Refresh">Refresh list</button>
+        </div>
+      </div>
+      </center>
+      <center id="bottomMe">
+      <p id="compen">Show me the compendium!</p>
+      </center>
+      <div id="compendiumContainer">
+        <img src="images/x.png" id="x">
+        <img src="images/compendium.png" id="compImg">
+        <img src="images/arrowLeft.png" id="arrowLeft">
+        <img src="images/arrowRight.png" id="arrowRight">
+      </div>
+      <div id="lobbyContainer">
+        <input type='text' id='nameInput' width="180px" height="60px"><img id="nameButton" width="90px" height="60px" src="images/NameButton.jpg">
+        <img src="images/readyRed.png" id="ready" width="90px" height="60px">
+        <div id="playerListContainer">
+          <b><p align=center id="playerListText">Players:</p></b>
+          <ol id="playerList">
+          </ol>
+        </div>
+        <div id="chatContainer">
+          <div id="statusContainer" align="center">
+            <p id="gameStatus">Lobby idle. Ready up!</p>
+          </div>
+          <ol id="lobbyChat">
+
+          </ol>
+          <div id="chatStuff">
+            <input type="text" id="textBox" placeholder="Type a message why dontcha"><button id="submitMessage">Send!</button>
+          </div>
+        </div>
+      </div>
+   </div>
+   <center>
+  <canvas id="mainCan",width="2048px",height="9px">
+    </center>
+</body>
+<script src="scripts/doodle.js"></script>
