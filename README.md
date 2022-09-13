@@ -7,7 +7,7 @@ solidifying my knowledge of full stack web development with Node.js. This projec
 In the future when I begin studying web development again I plan on remastering this game with better-chosen netcode. As this was written by a high school version of
 myself, it is admittedly not a paragon of commenting, structure or even functionality. However, it does represent over three months of concentrated effort to study and
 use the fundamental systems of Node.js. In the future, I plan to completely remake the game and some of the art assets involved. This new version will use my newfound
-knowledge of websocketing and UDP net messages for a more reliable and robust netcode.
+knowledge of websocketing and UDP net messages for a more reliable and robust netcode, as well as a more intelligently made front-end user interface
 
 In the mean time, feel free to enjoy what I was able to build earlier in my career along with its wacky art and story provided by my former classmate, who now studies
 design at Syracuse
